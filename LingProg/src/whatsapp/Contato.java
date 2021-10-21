@@ -17,7 +17,6 @@ public class Contato {
     String nome;
     int mensagensNaoLidas;
     String[] mensagens;
-    Contato destinatario;
 
     public Contato(String nome) {
         this.nome = nome;
