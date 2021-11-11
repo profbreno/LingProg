@@ -23,7 +23,6 @@ public class Exemplos {
 
         System.out.println("Retornando a posição 2 do ArrayList ordenado: " + nomes.get(2));
 
-
         sobrenomes.add("Carmezin");
         sobrenomes.add("Soares");
         sobrenomes.add("Santos");
