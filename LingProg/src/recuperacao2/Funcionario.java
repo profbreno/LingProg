@@ -49,21 +49,21 @@ abstract class Funcionario {
         this.salario = salario;
     }
 
-    public Funcionario cadastrar(Funcionario novoFuncionario){
-
-    }
-
-    public Funcionario editar(String cpf, Funcionario dtoFuncionario){
-        
-
-    }
-    public void deletar(String cpf){
-
-    }
-    public Funcionario consultar(String cpf){
-
-    }
-    public Funcionario[] consultarTodos(){
-
-    }
+//    public Funcionario cadastrar(Funcionario novoFuncionario){
+//
+//    }
+//
+//    public Funcionario editar(String cpf, Funcionario dtoFuncionario){
+//
+//
+//    }
+//    public void deletar(String cpf){
+//
+//    }
+//    public Funcionario consultar(String cpf){
+//
+//    }
+//    public Funcionario[] consultarTodos(){
+//
+//    }
 }
