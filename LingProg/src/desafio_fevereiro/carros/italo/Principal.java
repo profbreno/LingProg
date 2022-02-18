@@ -6,6 +6,8 @@ package desafio_fevereiro.carros.italo;
 // Funcionário
 // Gerador de senhas
 
+import java.util.Scanner;
+
 public class Principal {
 
     public static void main(String[] args) {
@@ -35,5 +37,28 @@ public class Principal {
         for (Carro carro : estacionamento.listar()){
             System.out.println(carro.getCor());
         }
+
+        Funcionario italoDiretor = new Diretor(123, "Italo", 10000, "Diretor");
+        Ponto pontoDiretor = new Ponto(italoDiretor);
+
+        //O funcionário acabou de chegar
+        pontoDiretor.baterPontoEntrada();
+        System.out.println(
+                pontoDiretor.pontoString(
+                pontoDiretor.getHoraEntrada()));
+
+        Scanner leitor = new Scanner(System.in);
+        leitor.nextInt();
+
+        // O funcionário vai sair
+        pontoDiretor.baterPontoSaida();
+        System.out.println(
+                pontoDiretor.pontoString(
+                        pontoDiretor.getHoraSaida()));
+
+        pontoDiretor.horasTrabalhadas();
+        pontoDiretor.horaPrevistaSaida();
+
     }
+
 }
