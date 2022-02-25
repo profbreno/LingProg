@@ -43,21 +43,7 @@ public class Principal {
 
         //O funcionário acabou de chegar
         pontoDiretor.baterPontoEntrada();
-        System.out.println(
-                pontoDiretor.pontoString(
-                pontoDiretor.getHoraEntrada()));
-
-        Scanner leitor = new Scanner(System.in);
-        leitor.nextInt();
-
-        // O funcionário vai sair
-        pontoDiretor.baterPontoSaida();
-        System.out.println(
-                pontoDiretor.pontoString(
-                        pontoDiretor.getHoraSaida()));
-
-        pontoDiretor.horasTrabalhadas();
-        pontoDiretor.horaPrevistaSaida();
+        System.out.println(pontoDiretor.getHoraEntrada().getTime());
 
     }
 
